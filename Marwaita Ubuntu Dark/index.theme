@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Marwaita Ubuntu Dark
+Comment=GTK Theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Marwaita Ubuntu Dark
+MetacityTheme=Marwaita Ubuntu Dark
+IconTheme=Marwaita-Dark
+CursorTheme=Marwaita
+CursorSize=24
