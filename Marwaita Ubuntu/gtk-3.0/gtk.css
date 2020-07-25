@@ -197,7 +197,7 @@ entry image.right {
 
 spinbutton:not(.vertical):focus,entry:focus {
   background-clip: border-box;
-  border-color: @suggested_color;
+  border-color: @selected_bg_color;
 }
 
 spinbutton:not(.vertical):disabled,entry:disabled {
@@ -438,13 +438,13 @@ button.destructive-action:disabled {
 
 .linked:not(.vertical):not(.path-bar) > entry + entry:focus:not(:last-child),
 .linked:not(.vertical):not(.path-bar) > entry + entry:focus:last-child {
-  border-left-color: @suggested_color;
+  border-left-color: @selected_bg_color;
 }
 
 .linked:not(.vertical):not(.path-bar) > entry:focus:not(:only-child) + entry,
 .linked:not(.vertical):not(.path-bar) > entry:focus:not(:only-child) + button,
 .linked:not(.vertical):not(.path-bar) > entry:focus:not(:only-child) + combobox > box > button.combo {
-  border-left-color: @suggested_color;
+  border-left-color: @selected_bg_color;
 }
 
 .linked:not(.vertical):not(.path-bar) > entry + entry:drop(active):not(:last-child),
@@ -482,7 +482,7 @@ button.destructive-action:disabled {
 
 .linked:not(.vertical):not(.path-bar) > button:active + entry,
 .linked:not(.vertical):not(.path-bar) > button:checked + entry {
-  border-left-color: @suggested_color;
+  border-left-color: @selected_bg_color;
 }
 
 .linked:not(.vertical):not(.path-bar) > button + button {
@@ -514,13 +514,13 @@ button.destructive-action:disabled {
 
 .linked.vertical > entry + entry:focus:not(:last-child),
 .linked.vertical > entry + entry:focus:last-child {
-  border-top-color: @suggested_color;
+  border-top-color: @selected_bg_color;
 }
 
 .linked.vertical > entry:focus:not(:only-child) + entry,
 .linked.vertical > entry:focus:not(:only-child) + button,
 .linked.vertical > entry:focus:not(:only-child) + combobox > box > button.combo {
-  border-top-color: @suggested_color;
+  border-top-color: @selected_bg_color;
 }
 
 .linked.vertical > entry + entry:drop(active):not(:last-child),
@@ -558,10 +558,10 @@ button.destructive-action:disabled {
 
 .linked.vertical > button:active + entry,
 .linked.vertical > button:checked + entry {
-  border-top-color: @suggested_color;
+  border-top-color: @selected_bg_color;
 }
 
-.linked.vertical > spinbutton:not(.vertical):focus{ box-shadow: inset 0 -1px @suggested_color;}
+.linked.vertical > spinbutton:not(.vertical):focus{ box-shadow: inset 0 -1px @selected_bg_color;}
 
 toolbar.inline-toolbar toolbutton > button.flat, toolbar.inline-toolbar toolbutton:backdrop > button.flat, .linked:not(.vertical) > spinbutton:not(.vertical), .linked:not(.vertical) > entry, .inline-toolbar button, .inline-toolbar button:backdrop, .linked > button, .linked > button:hover, .linked > button:active, .linked > button:checked, .linked > button:backdrop, filechooser .path-bar.linked > button, .linked > combobox > box > button.combo:dir(ltr), .linked > combobox > box > button.combo:dir(rtl),.titlebar .linked .stack-switcher button:not(.suggested-action):not(.destructive-action), .titlebar .linked button.text-button:not(.suggested-action):not(.destructive-action),.titlebar .linked button:not(.suggested-action):not(.destructive-action) { border-radius: 0; border-right-style: none; margin: 2px 0; }
 
@@ -3809,7 +3809,7 @@ filechooser placessidebar.sidebar row.sidebar-row label.sidebar-label,
 @define-color text_color @fg_color;
 @define-color bg_color shade(@base_color,0.9);
 @define-color base_color @selected_fg_color;
-@define-color selected_bg_color #E95420;
+@define-color selected_bg_color #e95420;
 @define-color selected_fg_color #fff;
 
 @define-color insensitive_bg_color @bg_color;
