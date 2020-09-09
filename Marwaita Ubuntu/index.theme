@@ -7,6 +7,6 @@ Encoding=UTF-8
 [X-GNOME-Metatheme]
 GtkTheme=Marwaita Ubuntu
 MetacityTheme=Marwaita Ubuntu
-IconTheme=Luna-Light
+IconTheme=Luna
 CursorTheme=Luna-Light
 CursorSize=24
