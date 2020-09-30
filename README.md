@@ -1,4 +1,4 @@
-# Marwaita
+# Marwaita Ubuntu
 GTK theme for Budgie desktop With Ubuntu Style
 
 ## Requirments
