@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Marwaita Alt Ubuntu
+Comment=GTK Theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Marwaita Alt Ubuntu
+MetacityTheme=Marwaita Alt Ubuntu
+IconTheme=Luna-Light
+CursorTheme=Luna
+CursorSize=24
