@@ -1,5 +1,5 @@
-# Marwaita Ubuntu
-GTK theme for Budgie desktop With Ubuntu Style
+# Marwaita
+GTK theme for Cinnamon desktop
 
 ## Requirments
 
@@ -7,4 +7,3 @@ GTK theme for Budgie desktop With Ubuntu Style
 
 ### GTK2 engines requirment
 - GTK2 Murrine engine.
-- GTK2 Clearlooks engine.
