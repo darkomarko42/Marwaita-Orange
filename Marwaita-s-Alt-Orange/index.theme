@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Marwaita-s-Alt-Orange
+Comment=GTK Theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Marwaita-s-Alt-Orange
+MetacityTheme=Marwaita-s-Alt-Orange
+IconTheme=Marwaita
+CursorTheme=Marwaita
+CursorSize=24
