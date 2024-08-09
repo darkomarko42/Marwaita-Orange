@@ -1,6 +1,6 @@
 @define-color headerbar_fg_color @accent_fg_color;
-@define-color headerbar_bg_color #23201f;
-@define-color headerbar_backdrop_color #2c2827;
+@define-color headerbar_bg_color #302d2c;
+@define-color headerbar_backdrop_color #3c3937;
 
 @define-color button_headerbar_bg_color mix(@headerbar_bg_color,@headerbar_fg_color,0.2);
 
